@@ -1,0 +1,13 @@
+$color-turquoise: #208B95;
+$color-turquoise-lighter: #3A98A1;
+$color-white: #FFFFFF;
+$color-black: #000000;
+
+@mixin ui-font($font-size: 108px, $color: #000, $font: Neutral Face){
+    color: $color;
+    font-family: $font;
+    font-size: $font-size;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
