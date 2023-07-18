@@ -23,5 +23,10 @@ module.exports = {
       { allowConstantExport: true },
     ],
     '@typescript-eslint/no-non-null-assertion': 'off',
+    'no-console': "warn",
+    'prefer-const': "warn", 
+    'quotes': ["error", "single"],
+    'jsx-quotes': ["error", "prefer-double"],
+    'semi': ["warn", "always"]
   },
 }

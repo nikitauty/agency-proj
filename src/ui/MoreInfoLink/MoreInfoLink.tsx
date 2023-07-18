@@ -1,4 +1,4 @@
-import { FunctionComponent } from "react";
+import { FunctionComponent } from 'react';
 import styles from './style/MoreInfoLink.module.css';
 
 
@@ -9,6 +9,6 @@ interface Props{
 
 export const MoreInfoLink: FunctionComponent<Props> = (src, text) => {
     return (
-        <a href={src.toString()} className={styles.link}>{text}</a>
+        <a href={src.toString()} className={styles.link}>text</a>
     );
 };

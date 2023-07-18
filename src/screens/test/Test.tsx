@@ -4,5 +4,5 @@ export const Test = () => {
             <h2>Hello</h2>
             <p>Hello world</p>
         </div>
-    )
-}
+    );
+};
