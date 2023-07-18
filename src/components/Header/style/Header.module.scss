@@ -50,3 +50,13 @@
         }
     }
 }
+
+@media (width <= 1440px) {
+    .header{
+        width: 1080px;
+        padding: 0 170px;
+    }
+    body{
+        padding: 0;
+    }
+}
