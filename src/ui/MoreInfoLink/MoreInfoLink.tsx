@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'react';
-import styles from './style/MoreInfoLink.module.css';
+import styles from './style/MoreInfoLink.module.scss';
 
 
 interface Props{
