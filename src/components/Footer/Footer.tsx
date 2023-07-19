@@ -4,7 +4,7 @@ import { MoreInfoLink } from '../../ui/MoreInfoLink/MoreInfoLink';
 
 export const Footer = () => {
     return (
-        <footer>
+        <footer className="footer">
             <div className="license">
                 ЦИАН — база данных о недвижимости. Использование сайта означает согласие с Пользовательским соглашением и Политикой конфиденциальности ЦИАН. Оплачивая лицензионный платеж, вы принимаете Лицензионное соглашение.
             </div>
