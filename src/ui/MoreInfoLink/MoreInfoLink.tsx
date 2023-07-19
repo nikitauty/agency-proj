@@ -1,16 +1,15 @@
 import { FunctionComponent } from 'react';
 import styles from './style/MoreInfoLink.module.scss';
 
-
-interface Props{
-    src: string,
-    text: string
+interface Props {
+	src: string;
+	text: string;
 }
 
 export const MoreInfoLink: FunctionComponent<Props> = ({ src, text }) => {
-    return (
-        <a href={src} className={styles.link}>
-            <p>{text}</p>
-        </a>
-    );
+	return (
+		<a href={src} className={styles.link}>
+			<p>{text}</p>
+		</a>
+	);
 };

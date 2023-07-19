@@ -1,62 +1,62 @@
 @import '../../../ui/vars';
 
-.header{
-    width: 1340px;
-    height: 52px;
+.header {
+	width: 1340px;
+	height: 52px;
 
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
 
-    margin-top: 24px;
-    
-    @include ui-font(16px, #000, Commissioner);
+	margin-top: 24px;
 
-    .logo{
-        width: 150px;
-        height: 50px;
+	@include ui-font(16px, #000, Commissioner);
 
-        background-color: #C4C4C4;
+	.logo {
+		width: 150px;
+		height: 50px;
 
-        margin-right: 14px;
-    }
+		background-color: #c4c4c4;
 
-    .nav{
-        margin-left: 20px;
-    }
+		margin-right: 14px;
+	}
 
-    .city{
-        display: flex;
-        margin-left: 72px;
-        
-        p{
-            margin-left: 10px;
-        }
-    }
+	.nav {
+		margin-left: 20px;
+	}
 
-    select{
-        margin-left: 30px;
-        border: 0;
-    }
+	.city {
+		display: flex;
+		margin-left: 72px;
 
-    .saved{
-        margin-left: 30px;
-    }
+		p {
+			margin-left: 10px;
+		}
+	}
 
-    .contacts{
-        margin-left: 20px;
+	select {
+		margin-left: 30px;
+		border: 0;
+	}
 
-        img{
-            margin-left: 10px;
-        }
-    }
+	.saved {
+		margin-left: 30px;
+	}
+
+	.contacts {
+		margin-left: 20px;
+
+		img {
+			margin-left: 10px;
+		}
+	}
 }
 
 @media (width <= 1440px) {
-    .header{
-        width: 1100px;
-        padding: 0 170px;
-    }
-    body{
-        padding: 0;
-    }
+	.header {
+		width: 1100px;
+		padding: 0 170px;
+	}
+	body {
+		padding: 0;
+	}
 }
