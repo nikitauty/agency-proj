@@ -1,10 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import location from '../../assets/images/location.svg';
-import logo from '../../assets/images/logo.png';
-import saved from '../../assets/images/saved.svg';
-import wapp from '../../assets/images/wapp.svg';
-import telegram from '../../assets/images/telegram.svg';
-import call from '../../assets/images/phone.svg';
+import location from '@/assets/images/location.svg';
+import logo from '@/assets/images/logo.png';
+import saved from '@/assets/images/saved.svg';
+import wapp from '@/assets/images/wapp.svg';
+import telegram from '@/assets/images/telegram.svg';
+import call from '@/assets/images/phone.svg';
 import styles from './style/Header.module.scss';
 
 export const Header = () => {
